@@ -9,6 +9,10 @@ import (
 	terminal "github.com/wayneashleyberry/terminal-dimensions"
 )
 
+const (
+	dotnetExitCode = 145
+)
+
 func (env *environment) isRunningAsRoot() bool {
 	return os.Geteuid() == 0
 }

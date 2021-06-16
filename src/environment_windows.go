@@ -9,6 +9,10 @@ import (
 	"golang.org/x/sys/windows"
 )
 
+const (
+	dotnetExitCode = 0x80008091
+)
+
 func (env *environment) isRunningAsRoot() bool {
 	var sid *windows.SID
 
