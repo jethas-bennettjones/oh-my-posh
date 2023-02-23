@@ -29,10 +29,9 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/tklauser/go-sysconf v0.3.6 // indirect
 	github.com/wayneashleyberry/terminal-dimensions v1.0.0
-	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
 	golang.org/x/image v0.0.0-20210607152325-775e3b0c77b9
-	golang.org/x/sys v0.0.0-20210608053332-aa57babbf139
-	golang.org/x/text v0.3.6
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
+	golang.org/x/text v0.3.8
 	howett.net/plist v0.0.0-20201203080718-1454fab16a06 // indirect
 )
 
